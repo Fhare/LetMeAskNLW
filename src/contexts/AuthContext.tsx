@@ -34,9 +34,9 @@ export function AuthContextProvider({ children }: AuthContextProviderProps) {
       if (user) {
         const { displayName, photoURL, uid } = user;
   
-        if (!displayName || photoURL) { // Se não tiver nome e nem foto de usuário retorne um erro;
-          throw new Error('Missing information from Google account.');
-        }
+        // if (!displayName || photoURL) { // Se não tiver nome e nem foto de usuário retorne um erro;
+        //   throw new Error('Missing information from Google account.');
+        // }
 
         setUser({ // Faz user valer essas novas informações agora;
           id: uid,
