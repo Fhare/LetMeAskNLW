@@ -13,6 +13,16 @@
       > img {
         max-height: 45px;
       }
+
+      > div {
+        display: flex;
+        align-items: center;
+        gap: 16px; // Nova funcionalidade css para alguns navegadores. 
+
+        button {
+          height: 40px;
+        }
+      }
     }
   }
 
@@ -40,6 +50,10 @@
         font-weight: 500;
         font-size: 14px;
       }
+    }
+
+    .question-list {
+      margin-top: 32px;
     }
 
     form {
