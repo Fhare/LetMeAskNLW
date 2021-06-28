@@ -10,6 +10,15 @@
     margin-top: 8px;
   }
 
+  &.highlighted {
+    background: #F4F0FF;
+    border: 1px solid #835AFD;
+  }
+
+  &.answered {
+    background: #D8DCDD;
+  }
+
   p {
     color: #29292E;
   }
@@ -36,6 +45,11 @@
         color: #737380;
         font-size: 14px;
       }
+    }
+
+    > div {
+      display: flex;
+      gap: 12px;
     }
 
     button {
